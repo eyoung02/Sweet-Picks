@@ -1,0 +1,371 @@
+/*FONTS AND COLORS*/
+/*
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+Lightest: #DFDFE1
+Darkest: #101315
+Purple: #493A42
+Green: #67b645 #4B8533
+Blue: #2D919B
+Pink: #AE377A
+*/
+
+
+
+/*********************************
+			HOME PAGE
+*********************************
+*************************************/
+
+
+
+
+/*BODY*/
+body{
+	font-family: 'Roboto',sans-serif;
+	background:url('../img/pinksmoke.jpg') no-repeat bottom center;
+	background-attachment: fixed;
+	background-color: #DFDFE1;
+	background-size: 100%;
+	color: #101315;
+}
+
+.row {
+	max-width:1280px;
+}
+
+/*TOP BAR */
+.top-bar{
+	background-color:#101315;
+
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	background-color: #101315;
+	color:#DFDFE1;
+	font-family: 'Roboto', sans-serif;
+	font-size: .85rem;
+}
+.top-bar-section li: a:hover{
+	color:#AE377A;
+	font-weight:900;
+}
+.category-page .top-bar-section li.active:not(.has-form) a:not(.button){
+	background: #101315;
+	    text-shadow:0 0 10px #67B645, 0 0 70px #67B645, 0 0 5px #67B645, 0 0 13px #67B645;
+	}
+.top-bar .name h1 a {
+font-weight: 900;
+font-size:2rem;
+font-family: 'Righteous', cursive;
+color: #ae377a;
+}
+.top-bar .name h1 a:hover{
+	color:#2D919B;
+}
+
+
+/*Spacing btwn nav items*/
+.top-bar-section li:not(.has-form) a:not(.button){
+	padding: 0 2rem;
+}
+/*****************
+       HERO 
+       ********************/
+.hero{
+	background-image: url('../img/pattern-black.png');
+	background-size: cover;
+	height:60%;
+	background-color: #AE377A;
+/*	background-color:rgba(0, 0, 0, .7);*/
+}  
+.new .column h4{
+	font-family:'Righteous', cursive;
+	font-size:2.25rem;
+	color:#101315;
+  	padding-top: 5rem;
+  	font-weight: 600;
+}
+/* ////////////
+//////////////////
+SLIDER
+/////////////////*/
+.orbit-bullets-container{
+	display: none;
+}
+.orbit-slide-number{
+	display: none;
+}
+.orbit-container .orbit-slides-container > * .orbit-caption{
+	background-color: rgba(0,0,0,0);
+	color:#DFDFE1;
+	font-family:'Roboto', sans-serif;
+	font-size:1.25rem;
+	text-align:right;
+	margin-top:2%;
+}
+
+.categories{
+	margin:0 auto;
+	display: inline;
+}
+
+.category-bakery , .category-fruit , .category-sweet {
+	background-color:#101315;
+	text-align: center;
+	padding:5rem;
+	border:3px solid #DFDFE1;
+}
+.category-bakery:hover, .category-fruit:hover, .category-sweet:hover{
+	background-color:#AE377A;
+}
+.category-bakery h4, .category-fruit h4, .category-sweet h4{
+	border:3px solid #DFDFE1;
+	color:#DFDFE1;
+}
+
+
+
+/*         Second Hero Class Teaser Image         */
+
+.teaser-image{
+	background-image:url('../img/teaser-image.jpg');
+	background-size: cover;
+    height: 75%;
+    background-attachment: fixed;
+    text-align: center;
+}
+.teaser-image h2{
+	font-family: 'Righteous',cursive;
+	font-weight: 600;
+	font-size:3rem;
+	padding-top:3rem;
+}
+/*  SMOKE OF BACKGROUND BODY IMAGE  */
+.smoke{
+	border-top: 1px solid #101315;
+	height:20%;
+	background: rgb(16,19,21);
+	background: linear-gradient(0deg, rgba(16,19,21,0) 0%, rgba(16,19,21,0.8393732492997199) 100%);
+}
+
+
+
+/*FOOTER*/
+footer{
+	background-color: #AE377A;
+}
+footer .footer-row{
+	padding:2% 0;
+	display:block;
+	margin:auto;
+}
+footer img{
+	width:60%;
+	
+}
+.footer-logo{
+	text-align: center;
+}
+footer .about p{
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	font-size: 1.25rem;
+	line-height: 150%;
+	border-left: 1px solid #101315;
+	padding-left: 1rem;
+}
+.quote p{
+	font-family: 'Roboto', sans-serif;
+	line-height: 110%;
+	font-size: 1.5rem;
+    font-weight: 300;
+}
+.quote h4	{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 110%;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+.punk p{
+
+    font-family: 'Righteous', cursive; 
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 110%;
+    text-shadow: -4px 4px blueviolet;
+    text-align: center;
+}
+
+	
+}
+footer .row {
+	margin:0;
+}
+footer .row .column h1{
+	font-weight: 300;
+	font-size:1.5rem;
+	font-family: 'Righteous', cursive;
+
+	
+}
+footer h1 a{
+	color:#DFDFE1;
+}
+
+footer ul li{
+	display: inline-block;
+}
+/*.contact{
+	padding-left:15%;
+	padding-right: 25%;
+	padding-top:15%;
+}*/
+.fab {
+	font-size:2rem;
+}
+.contact p{
+	font-size:1rem;
+	
+	font-family:'Roboto', sans-serif;
+/*	margin-bottom: 0.5rem;*/
+}
+.contact span{
+	font-weight: 300;
+	font-size: 1.25rem;
+	/*padding-left: 1rem;
+*/}
+
+/*BOTTOM NAVIGATION*/
+.bottom-nav{
+	background-color:#101315;/* #493A42;*/
+	color:#2D919B;
+	/*margin: auto 0;*/
+    text-align: center;
+    padding:0;
+}
+.bottom-nav.row {
+	max-width: none;
+	padding:.5rem 0;
+}
+.bottom-nav ul li {
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	padding:0 2rem;
+}
+.bottom-nav ul li a {
+	color:#2D919B;
+}
+.bottom-nav ul li a:hover {
+	color:#67b645;
+}
+.bottom-nav p,
+.bottom-nav ul {
+	margin:0;
+}
+/********************************
+			SHOP PAGES
+*********************************
+******************************************/
+/*SHOP GRID STRUCTURE*/
+
+/*HEADING*/
+.product-grid h1{
+	font-family: 'Righteous', cursive;
+	font-size: 3rem;
+	font-weight: 900;
+	text-align: center;
+}
+/*     item panels and containers            */
+.panel{
+	border:none;
+	background: rgb(16,19,21);
+	background: linear-gradient(0deg, rgba(16,19,21,1) 0%, rgba(16,19,21,0.4163658814589666) 100%);
+	text-align: center;
+}
+.panel h4{
+	font-family:'Righteous', cursive;
+	font-size: 2rem;
+	color:#67B645;
+	background-color:#101315;
+	background-image: url('../img/funky-lines_2.png');
+	margin-top: -20px;
+	margin-left: -20px;
+	width:111%;
+	padding:0.5rem;
+
+}
+.panel img{
+	width: 85%;
+	display: block;
+	margin: auto;
+}
+/* ~~~~~~~~~  PAGINATION ~~~~~~~~~~~ */
+ul .pagination li .current a, ul .pagination li .current button{
+	background-color:#101315;
+	color:#2D919B;
+}
+ul .paginiation li a, ul .pagination li .current{
+	font-family: 'Righteous', cursive;
+}
+
+/************************************
+				BAKERY SECTION
+****************************************
+******************************************/
+
+
+/*//////////////////////
+         Category Headings 
+//////////////////////////////////////*/
+/*.category-heading-bakery{
+	background-image: url('../img/guitar1.jpg');
+	background-size: cover;
+	padding:1rem 1rem;
+*/
+.before-bakery{
+	background-image: url('../img/bakery-title.jpg');
+	background-size:cover;
+	height:50%;
+	background-attachment: fixed;
+
+}
+.before-fruit{
+	background-image: url('../img/fruit-title.jpg');
+	background-size:cover;
+	height:50%;
+	background-attachment: fixed;
+
+}
+
+/*
+*************************
+		BREADCRUMBS
+**************************
+*/
+.breadcrumbs{
+	background-color: #101315;
+	border:none;
+}
+.breadcrumbs li a{
+	color:#67B645;
+	font-family:'Roboto',sans-serif;
+}
+.nav-breadcrumbs{
+	margin-bottom: -20px;
+}
+
+/************************
+
+		product pages
+
+
+*****************************/
+
+.product-bakery{
+	background-image: 
+}
+
