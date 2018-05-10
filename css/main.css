@@ -30,6 +30,7 @@ body{
 	background-color: #DFDFE1;
 	background-size: 100%;
 	color: #101315;
+
 }
 
 .row {
@@ -125,7 +126,18 @@ SLIDER
 	color:#DFDFE1;
 }
 
+.preview .row{
+	margin:0 auto;
+	max-width: none;
+	padding:0;
 
+}
+
+
+.preview .column{
+	padding: 0;
+
+}
 
 /*         Second Hero Class Teaser Image         */
 
@@ -136,11 +148,12 @@ SLIDER
     background-attachment: fixed;
     text-align: center;
 }
-.teaser-image h2{
+.teaser-image h1{
 	font-family: 'Righteous',cursive;
 	font-weight: 600;
 	font-size:3rem;
-	padding-top:3rem;
+	padding-top:30%;
+	color:#AE377A;
 }
 /*  SMOKE OF BACKGROUND BODY IMAGE  */
 .smoke{
@@ -273,11 +286,17 @@ footer ul li{
 /*SHOP GRID STRUCTURE*/
 
 /*HEADING*/
+.shop-title{
+	background-color:#101315;
+	max-width: none;
+	margin: 3rem 0 2rem 0;
+}
 .product-grid h1{
 	font-family: 'Righteous', cursive;
 	font-size: 3rem;
 	font-weight: 900;
 	text-align: center;
+	color:#2D919B;
 }
 /*     item panels and containers            */
 .panel{
@@ -321,20 +340,65 @@ ul .paginiation li a, ul .pagination li .current{
 /*//////////////////////
          Category Headings 
 //////////////////////////////////////*/
-/*.category-heading-bakery{
-	background-image: url('../img/guitar1.jpg');
-	background-size: cover;
-	padding:1rem 1rem;
-*/
+.heading{
+	
+	/*background: rgb(223,223,225);
+	background: linear-gradient(0deg, rgba(223,223,225,0) 0%, rgba(223,223,225,0.9402135854341737) 100%);
+	*/padding:1rem 1rem;
+	max-width:100%;
+}
+.category-heading-bakery h1{
+/*	background-image: url('../img/heading.jpg');
+	background-position: fixed;*/
+	background-color: #101315;
+    color: #67b645;
+    border-radius: 1rem;
+    padding: .5rem 0;
+    border: 3px solid #ae377a;
+}
+
 .before-bakery{
 	background-image: url('../img/bakery-title.jpg');
 	background-size:cover;
 	height:50%;
 	background-attachment: fixed;
+	
+}
 
+/************************************
+				FRUIT SECTION
+****************************************
+******************************************/
+.category-heading-fruit h1{
+
+	background-color: #101315;
+    color: #67b645;
+    border-radius: 1rem;
+    padding: .5rem 0;
+    border: 3px solid #ae377a;
 }
 .before-fruit{
 	background-image: url('../img/fruit-title.jpg');
+	background-size:cover;
+	height:50%;
+	background-attachment: fixed;
+
+
+}
+/************************************
+				SWEET SECTION
+****************************************
+******************************************/
+.category-heading-sweet h1{
+
+	background-color: #101315;
+    color: #67b645;
+    border-radius: 1rem;
+    padding: .5rem 0;
+    border: 3px solid #ae377a;
+}
+.before-sweet{
+	background-image: url('../img/sweet-title.jpg');
 	background-size:cover;
 	height:50%;
 	background-attachment: fixed;
@@ -368,4 +432,25 @@ ul .paginiation li a, ul .pagination li .current{
 .product-bakery{
 	background-image: 
 }
-
+.product-row{
+	/*background-color: #DFDFE1;*/
+	background-color: rgba(174, 55, 122, .5);
+    margin: 3rem 4rem;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+}
+.product-title{
+	padding-top: 20%;
+	font-family:'Righteous', cursive;
+	font-weight: 600;
+	color:#DFDFE1;
+}
+.product-price{
+	text-align: right;
+	font-family: 'Righteous', cursive;
+}
+.product-description{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color:#DFDFE1;
+}
