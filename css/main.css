@@ -435,15 +435,16 @@ ul .paginiation li a, ul .pagination li .current{
 .product-row{
 	/*background-color: #DFDFE1;*/
 	background-color: rgba(174, 55, 122, .5);
-    margin: 3rem 4rem;
+    margin: 3rem auto;
     padding: 2rem 2rem;
     border-radius: 2rem;
 }
 .product-title{
-	padding-top: 20%;
+	padding-top: 2rem;
 	font-family:'Righteous', cursive;
 	font-weight: 600;
 	color:#DFDFE1;
+	font-size: 4rem;
 }
 .product-price{
 	text-align: right;
@@ -454,3 +455,36 @@ ul .paginiation li a, ul .pagination li .current{
 	font-size: 1.5rem;
 	color:#DFDFE1;
 }
+/*  RELATED PRODUCTS   */
+.product-image{
+	margin:1.5rem auto;
+}
+.related{
+	max-width: 50%;
+}
+.related h1{
+	text-align: center;
+	font-family:'Roboto',sans-serif;
+	color:#67b645;
+	font-size:5rem;
+	font-weight: 600;
+	color:#2D919B;
+}
+.button{
+	background-color:#2D919B;
+	font-family: 'Righteous', cursive;
+	font-size:1.5rem;
+	color:#101315;
+
+}
+
+.button:hover{
+	background-color:#67b645;
+}
+
+/*````````````````````
+```````````````````````
+			ORDER PAGE
+```````````````````````
+````````````````````````*/
+
